@@ -1,0 +1,6 @@
+C:\Doc\VS\Interns\DistanceBetweenPointsCalculator\obj\Debug\DistanceBetweenPointsCalculator.csproj.CoreCompileInputs.cache
+C:\Doc\VS\Interns\DistanceBetweenPointsCalculator\bin\Debug\DistanceBetweenPointsCalculator.exe.config
+C:\Doc\VS\Interns\DistanceBetweenPointsCalculator\bin\Debug\DistanceBetweenPointsCalculator.exe
+C:\Doc\VS\Interns\DistanceBetweenPointsCalculator\bin\Debug\DistanceBetweenPointsCalculator.pdb
+C:\Doc\VS\Interns\DistanceBetweenPointsCalculator\obj\Debug\DistanceBetweenPointsCalculator.exe
+C:\Doc\VS\Interns\DistanceBetweenPointsCalculator\obj\Debug\DistanceBetweenPointsCalculator.pdb

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{525DA948-C846-4DDD-8D52-28DBC3A7C4D8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ex19_2</RootNamespace>
-    <AssemblyName>ex19_2</AssemblyName>
+    <RootNamespace>DistanceBetweenPointsCalculator</RootNamespace>
+    <AssemblyName>DistanceBetweenPointsCalculator</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DistanceBetweenPointsCalculator.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,18 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DisplayCoordinates.cs" />
-    <Compile Include="DisplayDistances.cs" />
-    <Compile Include="Distance1DBetweenPoints.cs" />
-    <Compile Include="Distance2DBetweenPoints.cs" />
-    <Compile Include="Distance3DBetweenPoints.cs" />
     <Compile Include="Point.cs" />
+    <Compile Include="Point2D.cs" />
     <Compile Include="Point3D.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

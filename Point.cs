@@ -1,14 +1,13 @@
-﻿namespace DistanceBetweenPointsCalculator
-{
-    public class Point
-    {
-        public readonly int x;
-        public readonly int y;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-        protected Point(int x, int y)
-        {
-            this.x = x;
-            this.y = y;
-        }
-    }
+namespace DistanceBetweenPointsCalculator
+{
+	public interface Point
+	{
+		double distance(Point point);
+	}
 }
